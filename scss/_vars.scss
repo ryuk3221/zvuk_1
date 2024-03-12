@@ -1,0 +1,40 @@
+$gradient1: linear-gradient(109deg, #B637F2 0%, #26C9ED 100%);
+$blue: #0DC4EC;
+$purple: #AD40F3 ;
+$white: #F7F9FB;
+$black: #312F33;
+$gray1: #333333;
+$gray3: #828282;
+$gray4: #BDBDBD;
+$gray6: #F2F2F2;
+$stroke: #CBD4D9;
+$green: #22CC33;
+$orange: #F46717;
+
+
+%onest-300 {
+  font-family: 'OnestLight', sans-serif;
+  font-weight: 300;
+}
+%onest-400 {
+  font-family: 'OnestRegular';
+  font-weight: 400;
+}
+%onest-500 {
+  font-family: 'OnestMedium';
+  font-weight: 500;
+}
+%onest-700 {
+  font-family: 'OnestBold';
+  font-weight: 700;
+}
+%title {
+  @extend %onest-400;
+  letter-spacing: -2.8px;
+  font-size: 56px;
+  color: $gray1;
+  padding-bottom: 24px;
+  border-bottom: 1px solid $stroke;
+  margin-bottom: 32px;
+  line-height: 100%;
+}
